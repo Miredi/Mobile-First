@@ -144,7 +144,6 @@ main{
 
 .main__list__container{
     display: flex;
-    justify-content: center;
     overflow-x: scroll;
     overscroll-behavior-x:contain;
     scroll-snap-type: x proximity;
@@ -401,11 +400,7 @@ main{
     justify-content: center;
     gap: 16px;
     width: 90%;
-<<<<<<< HEAD
     max-width: 900px;
-=======
-    max-width:900px;
->>>>>>> df4c95dc938100804172e5033d229f622523c7bb
     align-self: center; 
 }
 
@@ -520,6 +515,7 @@ main{
     display: flex;
     gap: 10px;
     height: 316px;
+    padding: 0 10px;
     overflow-x: scroll;
     overscroll-behavior-x:contain;
     scroll-snap-type: x proximity;
