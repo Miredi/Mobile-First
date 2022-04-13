@@ -2,6 +2,27 @@
     overflow: hidden;
 }
 
-..plans__contents__slider{
+.main__discover__container{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.main__discover--text{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.main__discover--text h2{
+    padding: 0;
+}
+
+.plans__contents__slider{
+    align-self: center;
     overflow: hidden;
+}
+
+.plans__contents{
+    margin:48px 0 0;
 }
