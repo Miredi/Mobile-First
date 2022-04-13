@@ -287,8 +287,10 @@ main{
     font-size: 1.8rem;
     font-weight: 700;
     line-height: 2.4rem;
+    font-family: "Inter","sans serif";
     color: var(--secondary-blue);
     text-align: center;
+
 }
 
 .commissions__table__container{
@@ -297,6 +299,7 @@ main{
     max-width: 300px;
     height: 250px;
     margin:0  auto;
+    font-family: "Inter","sans serif";
 }
 
 .commissions__table__container table{
