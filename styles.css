@@ -461,6 +461,8 @@ main{
 }
 
 .main__discover__container{
+    display:flex;
+    justify-content:center;
     width: 100%;
     min-width: 320px;
     height:50vh;
@@ -468,6 +470,12 @@ main{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;  
+}
+
+.main__discovery--text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .main__discover--text h2{
