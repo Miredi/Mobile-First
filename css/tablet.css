@@ -3,14 +3,10 @@
     overflow: hidden;
 }
 
-.main__discover__container{
-    display: flex;
-    align-content: center;
-}
-
 .main__discover--text{
-    display: flex;
-    align-items: center;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
     height: 100%;
 }
 
